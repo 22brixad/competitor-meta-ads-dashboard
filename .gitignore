@@ -1,0 +1,13 @@
+# 전이성 파일
+_raw/
+_ads_backup.json
+__pycache__/
+*.pyc
+~$*
+
+# 참고용(배포 불필요) — 원본 디자인/엑셀 임시
+_reference_gallery_v2.html
+_reference_build_outputs.py
+
+# 로컬 서버 로그 등
+*.log

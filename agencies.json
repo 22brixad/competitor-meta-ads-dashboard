@@ -1,0 +1,21 @@
+{
+  "_comment": "14개 경쟁 대행사 Meta 페이지 설정. refresh가 page_id별로 competitor_ads__search(meta) 호출 → _raw/<page_id>.json 저장 → normalize.py가 ads_all.json 생성/머지. query는 한글명 우선(영문 동명 페이지 오매칭 방지).",
+  "workspace_id": "b76a18a7-33e0-44d0-a3ee-a9f4b215672c",
+  "agencies": [
+    { "agency": "카페24 (Cafe24)",        "page_id": "209392889083022",  "query": "카페24",        "type": "자사홍보(PRO마케팅/후불광고)" },
+    { "agency": "BAT (비에이티)",          "page_id": "112695639407016",  "query": "비에이티",      "type": "수주공지/채용" },
+    { "agency": "매드업 (MADUP / LEVER)",  "page_id": "1151942574672091", "query": "매드업 LEVER",  "type": "자사홍보(마케팅솔루션)" },
+    { "agency": "매드업 (MADUP / LEVER)",  "page_id": "1001144700008162", "query": "매드업",        "type": "채용" },
+    { "agency": "헬로맥스 (HELLOMAX)",     "page_id": "875499838973709",  "query": "헬로맥스",      "type": "자사홍보(AI검색광고)" },
+    { "agency": "고위드 (Gowid)",          "page_id": "108268404286774",  "query": "고위드",        "type": "자사홍보(리드젠/핀테크)" },
+    { "agency": "한결기획",                "page_id": "773706765820227",  "query": "한결기획",      "type": "자사홍보(온라인/쿠팡광고대행)" },
+    { "agency": "마곳간",                  "page_id": "976365638899816",  "query": "마곳간",        "type": "자사홍보(이커머스마케팅)" },
+    { "agency": "이노마케팅 (그로빗)",     "page_id": "976196155567229",  "query": "이노마케팅",    "type": "자사홍보(셀프마케팅플랫폼)" },
+    { "agency": "애드포유",                "page_id": "407133166516872",  "query": "애드포유",      "type": "자사홍보(퍼포먼스대행)" },
+    { "agency": "메이드코퍼레이션",        "page_id": "366166373910985",  "query": "메이드코퍼레이션", "type": "자사홍보(브랜드프로젝트)" },
+    { "agency": "에스앤에이 (S&A)",        "page_id": "1398492283704880", "query": "에스앤에이",    "type": "자사홍보(패션광고대행)" },
+    { "agency": "클래스101 (CLASS101)",    "page_id": "1947160905536967", "query": "클래스101",     "type": "자사홍보(교육플랫폼)" },
+    { "agency": "marketing_fia",          "page_id": "1179539301900128", "query": "marketing_fia", "type": "자사홍보(GFA/파워링크대행)" },
+    { "agency": "아드리엘 (Adriel)",       "page_id": "460488137718424",  "query": "아드리엘",      "type": "확인필요(동명 페이지)" }
+  ]
+}
